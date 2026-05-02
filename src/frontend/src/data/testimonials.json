@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Rahul Verma",
+    "avatar": "/assets/generated/trainer-arjun.dim_600x700.jpg",
+    "rating": 5,
+    "review": "The Gyms completely transformed my physique in 6 months. The trainers are world-class — they don't just show you exercises, they teach you the science behind each movement. Best investment I've ever made.",
+    "result": "Lost 18kg in 5 months",
+    "memberSince": "Oct 2025",
+    "plan": "Elite"
+  },
+  {
+    "id": "2",
+    "name": "Sneha Patel",
+    "avatar": "/assets/generated/trainer-priya.dim_600x700.jpg",
+    "rating": 5,
+    "review": "As a working professional, I needed a gym that respected my time. The 24/7 access and smart programming means I never miss a session. The yoga and spinning classes are absolutely phenomenal.",
+    "result": "Gained 5kg lean muscle",
+    "memberSince": "Jan 2026",
+    "plan": "Warrior"
+  },
+  {
+    "id": "3",
+    "name": "Ankit Bhargava",
+    "avatar": "/assets/generated/trainer-vikram.dim_600x700.jpg",
+    "rating": 5,
+    "review": "Shifted from my old gym to The Gyms 8 months ago and have zero regrets. The equipment is top-notch, always maintained, never crowded. The community here pushes you to be your best every single day.",
+    "result": "Bench press went from 60kg to 100kg",
+    "memberSince": "Sep 2025",
+    "plan": "Warrior"
+  },
+  {
+    "id": "4",
+    "name": "Divya Krishnamurthy",
+    "avatar": "/assets/generated/trainer-priya.dim_600x700.jpg",
+    "rating": 5,
+    "review": "The nutrition consultation alone is worth the membership fee. My trainer Priya built me a plan that fits my vegetarian diet perfectly. I've hit goals I never thought possible at 40.",
+    "result": "Reduced body fat from 32% to 19%",
+    "memberSince": "Nov 2025",
+    "plan": "Elite"
+  },
+  {
+    "id": "5",
+    "name": "Rohan Kapoor",
+    "avatar": "/assets/generated/trainer-arjun.dim_600x700.jpg",
+    "rating": 5,
+    "review": "Started as a complete beginner, intimidated by everything. The team made me feel welcome from day one. Six months later I'm deadlifting 120kg and can't imagine my life without training.",
+    "result": "From zero to competing in first powerlifting meet",
+    "memberSince": "Aug 2025",
+    "plan": "Warrior Quarterly"
+  },
+  {
+    "id": "6",
+    "name": "Kavitha Nair",
+    "avatar": "/assets/generated/trainer-priya.dim_600x700.jpg",
+    "rating": 4,
+    "review": "The boxing classes with Vikram sir changed my fitness journey completely. I've become stronger, more confident, and developed discipline that carries into every part of my life. Highly recommend.",
+    "result": "Increased stamina by 200%, visible abs",
+    "memberSince": "Dec 2025",
+    "plan": "Warrior"
+  }
+]

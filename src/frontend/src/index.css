@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Figtree";
+    --font-body: "DM Sans";
+    --font-mono: "Geist Mono";
+    --radius: 0.25rem;
+
+    /* Dark theme is primary for this gym brand */
+    --background: 0.09 0 0;
+    --foreground: 0.96 0 0;
+    --card: 0.13 0 0;
+    --card-foreground: 0.96 0 0;
+    --popover: 0.11 0 0;
+    --popover-foreground: 0.96 0 0;
+
+    /* Red — energy, power, CTAs */
+    --primary: 0.55 0.22 27;
+    --primary-foreground: 0.98 0 0;
+
+    /* Gold — luxury, premium, accents */
+    --secondary: 0.78 0.18 70;
+    --secondary-foreground: 0.09 0 0;
+
+    --muted: 0.18 0 0;
+    --muted-foreground: 0.62 0 0;
+
+    --accent: 0.78 0.18 70;
+    --accent-foreground: 0.09 0 0;
+
+    --destructive: 0.55 0.22 27;
+    --destructive-foreground: 0.98 0 0;
+
+    --border: 0.2 0 0;
+    --input: 0.22 0 0;
+    --ring: 0.55 0.22 27;
+
+    --chart-1: 0.55 0.22 27;
+    --chart-2: 0.78 0.18 70;
+    --chart-3: 0.65 0.15 50;
+    --chart-4: 0.45 0.12 300;
+    --chart-5: 0.72 0.14 85;
+
+    --sidebar: 0.09 0 0;
+    --sidebar-foreground: 0.96 0 0;
+    --sidebar-primary: 0.55 0.22 27;
+    --sidebar-primary-foreground: 0.98 0 0;
+    --sidebar-accent: 0.78 0.18 70;
+    --sidebar-accent-foreground: 0.09 0 0;
+    --sidebar-border: 0.2 0 0;
+    --sidebar-ring: 0.55 0.22 27;
+  }
+
+  .dark {
+    --background: 0.09 0 0;
+    --foreground: 0.96 0 0;
+    --card: 0.13 0 0;
+    --card-foreground: 0.96 0 0;
+    --popover: 0.11 0 0;
+    --popover-foreground: 0.96 0 0;
+
+    --primary: 0.55 0.22 27;
+    --primary-foreground: 0.98 0 0;
+
+    --secondary: 0.78 0.18 70;
+    --secondary-foreground: 0.09 0 0;
+
+    --muted: 0.18 0 0;
+    --muted-foreground: 0.62 0 0;
+
+    --accent: 0.78 0.18 70;
+    --accent-foreground: 0.09 0 0;
+
+    --destructive: 0.55 0.22 27;
+    --destructive-foreground: 0.98 0 0;
+
+    --border: 0.2 0 0;
+    --input: 0.22 0 0;
+    --ring: 0.55 0.22 27;
+
+    --chart-1: 0.55 0.22 27;
+    --chart-2: 0.78 0.18 70;
+    --chart-3: 0.65 0.15 50;
+    --chart-4: 0.45 0.12 300;
+    --chart-5: 0.72 0.14 85;
+
+    --sidebar: 0.09 0 0;
+    --sidebar-foreground: 0.96 0 0;
+    --sidebar-primary: 0.55 0.22 27;
+    --sidebar-primary-foreground: 0.98 0 0;
+    --sidebar-accent: 0.78 0.18 70;
+    --sidebar-accent-foreground: 0.09 0 0;
+    --sidebar-border: 0.2 0 0;
+    --sidebar-ring: 0.55 0.22 27;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/Figtree.woff2") format("woff2");
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("/assets/fonts/DMSans.woff2") format("woff2");
+  font-weight: 400 500 600;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/assets/fonts/GeistMono.woff2") format("woff2");
+  font-weight: 400 500;
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-gradient {
+    background: linear-gradient(
+      to bottom,
+      oklch(0.06 0 0 / 0.85) 0%,
+      oklch(0.09 0 0 / 0.6) 50%,
+      oklch(0.09 0 0) 100%
+    );
+  }
+
+  .red-glow {
+    box-shadow: 0 0 30px oklch(0.55 0.22 27 / 0.25), 0 0 60px
+      oklch(0.55 0.22 27 / 0.1);
+  }
+
+  .gold-glow {
+    box-shadow: 0 0 20px oklch(0.78 0.18 70 / 0.3);
+  }
+
+  .text-gradient-red {
+    background: linear-gradient(
+      135deg,
+      oklch(0.65 0.22 27),
+      oklch(0.55 0.22 27)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-gold {
+    background: linear-gradient(
+      135deg,
+      oklch(0.88 0.18 70),
+      oklch(0.78 0.18 70)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .border-gradient-red {
+    border-image: linear-gradient(90deg, oklch(0.55 0.22 27), transparent) 1;
+  }
+
+  .section-dark {
+    background: oklch(0.09 0 0);
+  }
+
+  .section-darker {
+    background: oklch(0.06 0 0);
+  }
+
+  .section-card {
+    background: oklch(0.13 0 0);
+  }
+
+  .card-elevated {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.04)
+      inset;
+  }
+
+  .page-transition {
+    animation: pageIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) both;
+  }
+
+  .font-display {
+    font-family: var(--font-display), sans-serif;
+  }
+
+  @keyframes pageIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}

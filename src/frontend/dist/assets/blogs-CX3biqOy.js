@@ -1,0 +1,115 @@
+const blogsData = [
+  {
+    id: "1",
+    title: "5 Proven Muscle Building Strategies for Indian Bodybuilders",
+    slug: "muscle-building-strategies-indian",
+    excerpt: "Discover science-backed techniques that align with Indian dietary habits and lifestyle for maximum muscle gain.",
+    content: "Building muscle effectively in the Indian context requires understanding both the science of hypertrophy and the nuances of our diet and lifestyle. Protein is the cornerstone of muscle building — aim for 1.6–2.2g per kg of body weight daily. For vegetarians, a combination of dal, paneer, eggs, and whey protein can easily meet targets.\n\nProgressive overload is non-negotiable. Each week, add 2.5–5kg to your compound lifts. Your body adapts rapidly — if you're not getting stronger, you're not growing. Track every workout in a journal.\n\nSleep is where the magic happens. Aim for 7–9 hours nightly. Growth hormone peaks during deep sleep — this is when your body rebuilds damaged muscle fibers stronger than before.\n\nHydration is chronically underestimated in Indian summers. Drink at least 4–5 liters during training days. Electrolyte imbalance kills performance and recovery.\n\nFinally, consistency beats intensity every time. 80% effort shown up daily for a year crushes sporadic 100% effort. Build the habit, trust the process.",
+    author: "Arjun Mehta",
+    authorAvatar: "/assets/generated/trainer-arjun.dim_600x700.jpg",
+    date: "2026-04-15",
+    readTime: "6 min read",
+    category: "Training",
+    coverImage: "/assets/generated/hero-main.dim_1920x1080.jpg",
+    tags: [
+      "Muscle Building",
+      "Strength Training",
+      "Indian Fitness"
+    ]
+  },
+  {
+    id: "2",
+    title: "The Ultimate Guide to Pre & Post Workout Nutrition",
+    slug: "pre-post-workout-nutrition-guide",
+    excerpt: "What you eat before and after training can make or break your results. Here's the complete Indian-friendly nutrition playbook.",
+    content: "Your nutrition timing can significantly impact performance and recovery. Pre-workout, consume 30–60g of complex carbs and 20–30g of protein 60–90 minutes before training. Options include oats with milk and banana, idli-sambar, or brown rice with chicken.\n\nAvoid heavy fats pre-workout as they slow gastric emptying and can cause discomfort during intense training. A small amount is acceptable but don't overdo it.\n\nPost-workout, the anabolic window is real but more forgiving than once thought — aim to eat within 2 hours. Prioritize fast-digesting protein: whey shake immediately, followed by a balanced meal within 90 minutes.\n\nHydration post-workout is critical. Replace fluids lost during exercise — weigh yourself before and after to understand your sweat rate. For every kg lost, drink 1.5 liters of water.\n\nCreatine monohydrate remains the most researched and effective supplement available. 5g daily — no loading phase needed — produces measurable gains in strength and muscle mass within 4–8 weeks.",
+    author: "Priya Sharma",
+    authorAvatar: "/assets/generated/trainer-priya.dim_600x700.jpg",
+    date: "2026-04-08",
+    readTime: "8 min read",
+    category: "Nutrition",
+    coverImage: "/assets/generated/gym-interior.dim_1200x800.jpg",
+    tags: [
+      "Nutrition",
+      "Diet",
+      "Performance"
+    ]
+  },
+  {
+    id: "3",
+    title: "HIIT vs Steady-State Cardio: What Burns More Fat?",
+    slug: "hiit-vs-steady-state-cardio",
+    excerpt: "The great cardio debate finally settled. We break down when to use each method for maximum fat loss results.",
+    content: "The debate between HIIT and steady-state cardio has raged for decades. The truth? Both work, and smart athletes use both strategically.\n\nHIIT — High Intensity Interval Training — maximizes post-exercise oxygen consumption (EPOC), the so-called afterburn effect. You continue burning calories for 24–48 hours post-session. A 20-minute HIIT session can burn more total calories than 45 minutes of moderate jogging.\n\nHowever, HIIT is demanding on the nervous system. Do it more than 3 times per week and recovery suffers, which tanks strength training performance. Use HIIT as a tool, not a daily habit.\n\nSteady-state cardio — walking, cycling, swimming at 65–75% max heart rate — is excellent for active recovery, cardiovascular health, and daily calorie deficit without taxing recovery. It also preserves muscle better in a caloric deficit.\n\nThe optimal approach: 2 HIIT sessions weekly post-strength training, 2–3 low-intensity steady-state sessions on off-days or mornings. This combination delivers the best of both worlds.",
+    author: "Vikram Nair",
+    authorAvatar: "/assets/generated/trainer-vikram.dim_600x700.jpg",
+    date: "2026-03-28",
+    readTime: "5 min read",
+    category: "Cardio",
+    coverImage: "/assets/generated/classes-hiit.dim_900x600.jpg",
+    tags: [
+      "Cardio",
+      "Fat Loss",
+      "HIIT"
+    ]
+  },
+  {
+    id: "4",
+    title: "Mind-Muscle Connection: The Secret Weapon of Elite Athletes",
+    slug: "mind-muscle-connection-guide",
+    excerpt: "The difference between average and elite gains often comes down to this overlooked mental technique.",
+    content: "Elite bodybuilders and athletes have long talked about the mind-muscle connection — the deliberate focus on contracting the target muscle during each rep. Science now confirms this is far more than mental gymnastics.\n\nStudies show that consciously focusing on the muscle being worked increases muscle activation by 20–40% compared to just moving the weight. This means better stimulus, better growth, with potentially less weight.\n\nHow to develop it: Start with isolation exercises — curls, lateral raises, leg extensions. Use lighter weight initially. Slow down the eccentric (lowering) phase to 3–4 seconds. Feel the stretch at the bottom, the squeeze at the top.\n\nVisualization is powerful. Before a set, close your eyes and picture the muscle contracting and extending. Many elite athletes claim to actually feel the muscle pump before even starting the set.\n\nThis skill transfers beautifully to compound movements. A squat becomes a quad-dominant exercise when you focus on pushing through the front of your feet and contracting the quads throughout the movement.",
+    author: "Arjun Mehta",
+    authorAvatar: "/assets/generated/trainer-arjun.dim_600x700.jpg",
+    date: "2026-03-15",
+    readTime: "7 min read",
+    category: "Training",
+    coverImage: "/assets/generated/about-gym.dim_1200x700.jpg",
+    tags: [
+      "Mental Training",
+      "Technique",
+      "Advanced"
+    ]
+  },
+  {
+    id: "5",
+    title: "Yoga for Athletes: How Flexibility Transforms Performance",
+    slug: "yoga-for-athletes-performance",
+    excerpt: "Discover why India's ancient practice is the secret weapon of modern elite athletes worldwide.",
+    content: "Yoga has moved from wellness studios into professional sports locker rooms worldwide — and for good reason. For strength athletes and gym-goers, targeted yoga practice can dramatically improve performance, reduce injury risk, and accelerate recovery.\n\nFlexibility and mobility are often conflated but are distinct. Flexibility is passive range of motion; mobility is active range of motion with strength and control. Yoga develops both simultaneously.\n\nFor lifters, hip flexor tightness is epidemic — it limits squat depth, causes anterior pelvic tilt, and contributes to lower back pain. 10 minutes of daily hip-focused yoga — pigeon pose, lizard pose, warrior sequences — can produce noticeable improvement within 3–4 weeks.\n\nBreathing techniques from pranayama directly translate to better performance. Diaphragmatic breathing under load improves core stability and intra-abdominal pressure — the same principle behind proper bracing during heavy lifts.\n\nRecommend 2–3 yoga sessions weekly, ideally on non-lifting days or as morning practice. Our studio at The Gyms offers specialized yoga for athletes classes every Tuesday and Thursday evening.",
+    author: "Priya Sharma",
+    authorAvatar: "/assets/generated/trainer-priya.dim_600x700.jpg",
+    date: "2026-03-01",
+    readTime: "6 min read",
+    category: "Wellness",
+    coverImage: "/assets/generated/classes-yoga.dim_900x600.jpg",
+    tags: [
+      "Yoga",
+      "Flexibility",
+      "Recovery",
+      "Wellness"
+    ]
+  },
+  {
+    id: "6",
+    title: "Boxing for Fitness: Why Everyone Should Train Like a Fighter",
+    slug: "boxing-fitness-training-benefits",
+    excerpt: "Boxing training is transforming Indian fitness. Here's why it delivers results no other workout can match.",
+    content: "Boxing has exploded in Indian fitness culture — and it's not hard to see why. A single boxing session burns 600–900 calories, builds lean muscle, develops explosive power, sharpens reflexes, and is genuinely the most fun you can have in a gym.\n\nThe technical skills component keeps the brain engaged in a way pure weight training cannot. Learning to jab, cross, hook, and slip keeps neural pathways firing and prevents the mental plateau that often leads people to quit conventional training.\n\nBag work develops unilateral power that transfers directly to athletic performance in every sport. The rotational force of a proper cross engages core, hips, shoulders, and arms in one coordinated movement — it's one of the most complete athletic movements you can train.\n\nSparring (even light, technical) demands presence. You cannot be distracted — your mind is completely absorbed in the moment. Many practitioners report boxing as one of the most effective stress-relief tools available.\n\nOur Boxing Fundamentals class at The Gyms runs on Mondays, Wednesdays, and Fridays. No prior experience needed — just the willingness to work hard.",
+    author: "Vikram Nair",
+    authorAvatar: "/assets/generated/trainer-vikram.dim_600x700.jpg",
+    date: "2026-02-20",
+    readTime: "5 min read",
+    category: "Training",
+    coverImage: "/assets/generated/classes-boxing.dim_900x600.jpg",
+    tags: [
+      "Boxing",
+      "Cardio",
+      "Fat Loss",
+      "MMA"
+    ]
+  }
+];
+export {
+  blogsData as b
+};

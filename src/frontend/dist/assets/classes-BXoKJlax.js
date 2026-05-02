@@ -1,0 +1,119 @@
+import { c as createLucideIcon } from "./index-DzByOr0V.js";
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode = [
+  ["path", { d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2", key: "1yyitq" }],
+  ["path", { d: "M16 3.128a4 4 0 0 1 0 7.744", key: "16gr8j" }],
+  ["path", { d: "M22 21v-2a4 4 0 0 0-3-3.87", key: "kshegd" }],
+  ["circle", { cx: "9", cy: "7", r: "4", key: "nufk8" }]
+];
+const Users = createLucideIcon("users", __iconNode);
+const classesData = [
+  {
+    id: "hiit-knockout",
+    name: "HIIT Knockout",
+    description: "High-octane interval training combining strength circuits with explosive conditioning. Designed to torch fat and build functional strength simultaneously. The hardest 45 minutes you'll ever love.",
+    instructor: "Vikram Nair",
+    duration: "45 min",
+    difficulty: "Intermediate",
+    schedule: [
+      "Mon 6:30am",
+      "Wed 6:30am",
+      "Fri 6:30am",
+      "Sat 8:00am"
+    ],
+    capacity: 20,
+    image: "/assets/generated/classes-hiit.dim_900x600.jpg",
+    category: "Conditioning"
+  },
+  {
+    id: "power-yoga",
+    name: "Power Yoga Flow",
+    description: "Dynamic Vinyasa-style yoga that builds strength, flexibility, and mental clarity. Draws on traditional Indian yoga lineages modernized for athletic performance. Sweat, stretch, and find your edge.",
+    instructor: "Priya Sharma",
+    duration: "60 min",
+    difficulty: "All Levels",
+    schedule: [
+      "Tue 7:00am",
+      "Thu 7:00am",
+      "Sun 9:00am"
+    ],
+    capacity: 18,
+    image: "/assets/generated/classes-yoga.dim_900x600.jpg",
+    category: "Mind-Body"
+  },
+  {
+    id: "boxing-fundamentals",
+    name: "Boxing Fundamentals",
+    description: "Learn authentic boxing technique from a former national champion. Jab-cross combos, footwork, head movement, bag work. Zero experience required — maximum results guaranteed.",
+    instructor: "Vikram Nair",
+    duration: "50 min",
+    difficulty: "Beginner",
+    schedule: [
+      "Mon 7:00pm",
+      "Wed 7:00pm",
+      "Fri 7:00pm"
+    ],
+    capacity: 16,
+    image: "/assets/generated/classes-boxing.dim_900x600.jpg",
+    category: "Combat"
+  },
+  {
+    id: "spinning",
+    name: "Cycle Storm",
+    description: "Immersive indoor cycling with synchronized music, dynamic lighting, and coach-guided intensity intervals. One session burns 600–800 calories. Warning: extremely addictive.",
+    instructor: "Arjun Mehta",
+    duration: "45 min",
+    difficulty: "All Levels",
+    schedule: [
+      "Mon 8:00am",
+      "Tue 6:30pm",
+      "Thu 6:30pm",
+      "Sat 9:00am"
+    ],
+    capacity: 24,
+    image: "/assets/generated/classes-cycling.dim_900x600.jpg",
+    category: "Cardio"
+  },
+  {
+    id: "strength-foundations",
+    name: "Strength Foundations",
+    description: "Master the big compound lifts — squat, bench, deadlift, overhead press — with expert coaching and perfect technique. The definitive class for anyone serious about building real strength.",
+    instructor: "Arjun Mehta",
+    duration: "60 min",
+    difficulty: "Beginner",
+    schedule: [
+      "Tue 7:00am",
+      "Thu 7:00am",
+      "Sat 7:00am"
+    ],
+    capacity: 12,
+    image: "/assets/generated/gym-interior.dim_1200x800.jpg",
+    category: "Strength"
+  },
+  {
+    id: "functional-fitness",
+    name: "Functional Fitness",
+    description: "Real-world movement patterns that translate to everyday strength. Kettlebells, resistance bands, bodyweight movements, and unconventional training tools. Build a body that performs as good as it looks.",
+    instructor: "Priya Sharma",
+    duration: "55 min",
+    difficulty: "Intermediate",
+    schedule: [
+      "Mon 7:00am",
+      "Wed 7:00am",
+      "Fri 7:00am",
+      "Sun 10:00am"
+    ],
+    capacity: 20,
+    image: "/assets/generated/about-gym.dim_1200x700.jpg",
+    category: "Functional"
+  }
+];
+export {
+  Users as U,
+  classesData as c
+};

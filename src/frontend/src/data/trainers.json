@@ -1,0 +1,86 @@
+[
+  {
+    "id": "arjun",
+    "name": "Arjun Mehta",
+    "role": "Head Strength & Conditioning Coach",
+    "image": "/assets/generated/trainer-arjun.dim_600x700.jpg",
+    "specialization": [
+      "Powerlifting",
+      "Muscle Hypertrophy",
+      "Sports Performance"
+    ],
+    "experience": "12 Years",
+    "clients": 340,
+    "bio": "Former national-level powerlifter and NSCA-certified Strength & Conditioning Specialist. Arjun has transformed hundreds of ordinary individuals into extraordinary athletes. His evidence-based approach combines the latest sports science with practical, sustainable programming.",
+    "certifications": [
+      "NSCA-CSCS",
+      "ISSA Master Trainer",
+      "ACE Personal Trainer",
+      "Precision Nutrition L2"
+    ],
+    "instagram": "@arjun_getstrong"
+  },
+  {
+    "id": "priya",
+    "name": "Priya Sharma",
+    "role": "Women's Fitness & Yoga Specialist",
+    "image": "/assets/generated/trainer-priya.dim_600x700.jpg",
+    "specialization": [
+      "Women's Strength Training",
+      "Yoga & Mobility",
+      "Pre/Post Natal Fitness"
+    ],
+    "experience": "9 Years",
+    "clients": 280,
+    "bio": "Priya pioneered women's strength training in the region at a time when it was largely misunderstood. A 500-hour RYT certified yoga instructor with deep expertise in functional movement, she brings a holistic mind-body approach to every client's journey.",
+    "certifications": [
+      "RYT 500 Yoga Alliance",
+      "ACSM Certified PT",
+      "Precision Nutrition L1",
+      "FMS Specialist"
+    ],
+    "instagram": "@priya_strongyogi"
+  },
+  {
+    "id": "vikram",
+    "name": "Vikram Nair",
+    "role": "Boxing & HIIT Performance Coach",
+    "image": "/assets/generated/trainer-vikram.dim_600x700.jpg",
+    "specialization": [
+      "Boxing",
+      "HIIT & Metabolic Conditioning",
+      "Combat Sports Fitness"
+    ],
+    "experience": "11 Years",
+    "clients": 420,
+    "bio": "Ex-professional boxer with 6 national titles, Vikram channels his competitive fighting experience into high-performance fitness coaching. His signature Boxing Fundamentals and HIIT Knockout classes are consistently the most booked sessions at The Gyms.",
+    "certifications": [
+      "BOXFIT India Certified",
+      "NASM Performance Enhancement",
+      "AIBA Coach Level 2",
+      "TRX Suspension Training"
+    ],
+    "instagram": "@vikram_knockout"
+  },
+  {
+    "id": "meera",
+    "name": "Meera Iyer",
+    "role": "Nutrition & Lifestyle Coach",
+    "image": "/assets/generated/trainer-priya.dim_600x700.jpg",
+    "specialization": [
+      "Sports Nutrition",
+      "Weight Management",
+      "Indian Vegetarian Diets"
+    ],
+    "experience": "7 Years",
+    "clients": 190,
+    "bio": "Registered Dietitian with a Master's in Sports Nutrition from SNDT University. Meera specializes in creating sustainable Indian diet plans that support athletic performance without sacrificing the cultural food practices that make eating a joy.",
+    "certifications": [
+      "RD India Council",
+      "Sports Dietitian ISSNF",
+      "Precision Nutrition L2",
+      "Diabetes Educator"
+    ],
+    "instagram": "@meera_fuelright"
+  }
+]
